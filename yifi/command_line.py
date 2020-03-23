@@ -120,7 +120,8 @@ def execute():
                 quality = displayQualities(y,Id)
 
             url = y.getMagnetUrl(Id,quality)
-            webbrowser.open(url)
+            # webbrowser.open(url)
+            with open (Id+'.magnet', 'a') as f: f.write (url)
             exit()
 
         # similar to magnet links , pass download 
