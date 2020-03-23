@@ -94,6 +94,7 @@ class Movie:
         details["mpa_rating"]=movie["mpa_rating"]
         details["quality"]=str(self.getQualities())
         details["description_intro"]=movie["description_intro"]
+        details["imdb_code"]=movie["imdb_code"]
 
         return details
 

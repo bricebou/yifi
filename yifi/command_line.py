@@ -47,6 +47,7 @@ def displayDetails(movie):
     print("mpa     : " + movie["mpa_rating"])
     print("quality : " + movie["quality"])
     print("descr   : " + "\n\t  ".join(textwrap.wrap(" "+movie["description_intro"])))
+    print("imdb_id : " + movie["imdb_code"])
     print()
 
 # help text
