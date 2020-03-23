@@ -140,7 +140,8 @@ def execute():
                 quality = displayQualities(y,Id)
 
             url = y.getTorrentUrl(Id,quality)
-            webbrowser.open(url)
+            # webbrowser.open(url)
+            urllib.urlretrieve(url, filename=Id+".torrent")
             exit()
 
         # incase none of the above flags are set
