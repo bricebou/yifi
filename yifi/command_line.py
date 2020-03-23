@@ -3,6 +3,7 @@ import webbrowser
 import textwrap
 import requests
 import sys
+import urllib
 
 try:
     import yifi
