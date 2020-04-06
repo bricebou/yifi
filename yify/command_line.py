@@ -6,10 +6,10 @@ import sys
 import urllib
 
 try:
-    import yifi
-    yifi.browser()
+    import yify
+    yify.browser()
 except (ImportError, AttributeError):
-    from yifi import yifi
+    from yify import yify
 
 # display movie id and title
 def displayMovies( movies):
@@ -79,7 +79,7 @@ def execute():
         help()
         exit()
 
-    y = yifi.browser()
+    y = yify.browser()
 
     if "-id" in arg:
 
@@ -231,4 +231,4 @@ def main():
     try:
         execute()
     except requests.exceptions.ConnectionError as e:
-        print("connection refuced by yifi")
+        print("connection refuced by yify")

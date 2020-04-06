@@ -5,16 +5,16 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__),fname)).read()
 
 setup(
-    name = "yifi",
+    name = "yify",
     version = "0.2.5",
     author = "vitaminC",
     author_email = "dmakhil@gmail.com",
-    url="https://github.com/AkhilMaskery/yifi",
-    description = ("browse yifi on your command line"),
-    entry_points={'console_scripts':['yifi=yifi.command_line:main']},
+    url="https://github.com/AkhilMaskery/yify",
+    description = ("browse yify on your command line"),
+    entry_points={'console_scripts':['yify=yify.command_line:main']},
     license = "GPLv3",
-    keywords = "yifi torrent download",
-    packages = ['yifi'],
+    keywords = "yify torrent download",
+    packages = ['yify'],
     install_requires=[
               'requests',
           ],

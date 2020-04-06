@@ -1,10 +1,10 @@
-## yifi on commandline
+## yify on commandline
 
 Command line tool for browsing and downloading the yts torrents 
 
 #### Installation
     
-    pip install yifi
+    pip install yify
 
 ##### options 
 
@@ -22,29 +22,29 @@ Command line tool for browsing and downloading the yts torrents
 ##### examples
 first simply get the list top seeded and latest movie torrent by
         
-        yifi
+        yify
 
 the output has 2 columns **movie_id** and **movie_title**
 
 if you want the further page results go for 
     
-        yifi -p 2 
-        yifi -p 5
+        yify -p 2 
+        yify -p 5
 
 once you have the id you can view the details of the movie by simply
     
-        yifi -id movie_id
+        yify -id movie_id
     
-to search the movie in yifi database 
+to search the movie in yify database 
     
-        yifi -f <move_name>
+        yify -f <move_name>
    
 and when you want to download the movie go with
     
-        yifi -id <movie_id> --download
+        yify -id <movie_id> --download
 
 this would download the **.torrent** file 
 
 to download the movie using the magnet do
     
-        yifi -id <movie_id> --magnet
+        yify -id <movie_id> --magnet

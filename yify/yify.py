@@ -1,7 +1,7 @@
 import requests
 
 try:
-    from yifi import Movie
+    from yify import Movie
 except ImportError:
     import Movie
 
