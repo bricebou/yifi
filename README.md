@@ -1,10 +1,10 @@
-## yify on commandline
+## yify on command line
 
 Command line tool for browsing and downloading the yts torrents 
 
 #### Installation
-    
-    pip install yify
+ 
+    sudo pip3 install git+https://github.com/bricebou/yify
 
 ##### options 
 
